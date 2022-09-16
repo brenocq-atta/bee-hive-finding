@@ -17,6 +17,7 @@ struct BeeComponent final : public cmp::Component {
         EVALUATE_HIVE,   // Fly to hive to evaluate it
         GO_HOME,         // Fly back to home
         DANCE,           // Dance to tell other bees about the hive
+        NUM_TASKS,
     };
     atta::vec2 home;    // Home position
     Task task;          // Current bee task

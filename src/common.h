@@ -12,5 +12,6 @@ namespace cmp = atta::component;
 
 const cmp::Entity beePrototype(4);
 const cmp::Entity hivePrototype(3);
+const cmp::Entity global(5);
 
 #endif // COMMON_H
